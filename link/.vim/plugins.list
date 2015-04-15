@@ -1,0 +1,15 @@
+command-t,https://github.com/wincent/command-t.git
+nerdtree,https://github.com/scrooloose/nerdtree.git
+rainbow_parentheses.vim,https://github.com/kien/rainbow_parentheses.vim.git
+vim-clojure-highlight,https://github.com/guns/vim-clojure-highlight
+vim-clojure-static,https://github.com/guns/vim-clojure-static.git
+vim-dispatch,https://github.com/tpope/vim-dispatch.git
+vim-fireplace,https://github.com/tpope/vim-fireplace.git
+vim-gradle,https://github.com/tfnico/vim-gradle.git
+vim-json,https://github.com/elzr/vim-json.git
+vim-leiningen,https://github.com/tpope/vim-leiningen.git
+vim-projectionist,https://github.com/tpope/vim-projectionist.git
+vim-repeat,https://github.com/tpope/vim-repeat.git
+vim-sexp-mappigs-for-normal-people,https://github.com/tpope/vim-sexp-mappings-for-regular-people.git
+vim-sexp,https://github.com/guns/vim-sexp.git
+vim-surround,https://github.com/tpope/vim-surround.git

@@ -1,0 +1,7 @@
+PROXY="http://localhost:3128";
+export http_proxy=$PROXY;
+export https_proxy=$PROXY;
+export ftp_proxy=$PROXY;
+export no_proxy="localhost,127.0.0.1"
+
+/usr/bin/google-chrome

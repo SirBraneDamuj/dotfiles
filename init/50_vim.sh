@@ -1,7 +1,6 @@
-# Backups, swaps and undos are stored here.
-mkdir -p $DOTFILES/caches/vim
-
-# Download Vim plugins.
-if [[ "$(type -P vim)" ]]; then
-  vim +PlugUpgrade +PlugUpdate +qall
-fi
+while IFS=, read name url; do
+  declare clone_path="~/.vim/bundle/$name"
+  if [[ ! -d "$clone_path" ]]; then
+    git clone "$url" "$clone_path"
+  fi
+done < ~/.vim/plugins.list

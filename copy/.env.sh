@@ -1,0 +1,9 @@
+export JAVA_HOME=/usr/lib/jdk1.8.0_31
+export IDEA_HOME=/opt/idea-IU-139.659.2
+export M2_HOME=/opt/apache-maven-3.2.5
+export NODE_HOME=/opt/node-v0.10.35
+export GRADLE_HOME=/opt/gradle-2.2.1
+export CATALINA_HOME=/opt/tomcat
+export ORACLE_HOME=/opt/oracle/instantclient_12_1
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$ORACLE_HOME
+export JMETER_HOME=/opt/apache-jmeter-2.13
