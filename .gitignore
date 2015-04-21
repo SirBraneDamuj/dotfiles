@@ -10,6 +10,7 @@
 
 # Don't commit Vim plugins, vim-plug will install them.
 /link/.vim/plugged
+/link/.vim/bundle
 
 # Don't commit rbenv temp files.
 /link/.rbenv/shims/
@@ -18,3 +19,5 @@
 
 # Ignore any file with LOCAL in the name (good for per-machine vars/functions)
 *LOCAL*
+
+/link/.byobu/.ssh-agent
